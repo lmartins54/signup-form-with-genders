@@ -1,0 +1,43 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f0f8ff; /* Alice Blue */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ff1493; /* Deep Pink */
+}
+
+label {
+    color: #4b0082; /* Indigo */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+input[type="button"] {
+    background-color: #7cfc00; /* Lawn Green */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #32cd32; /* Lime Green */
+}
